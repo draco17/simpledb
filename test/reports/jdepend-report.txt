@@ -1,0 +1,55 @@
+
+--------------------------------------------------
+- Package: Default
+--------------------------------------------------
+
+Stats:
+    Total Classes: 9
+    Concrete Classes: 9
+    Abstract Classes: 0
+
+    Ca: 0
+    Ce: 1
+
+    A: 0
+    I: 1
+    D: 0
+
+Abstract Classes:
+
+Concrete Classes:
+    Application
+    Builder
+    CodenarcGriffonPlugin
+    Config
+    Initialize
+    JdependGriffonPlugin
+    SimpleController
+    SimpleModel
+    SimpleView
+
+Depends Upon:
+    java.beans
+
+Used By:
+    Not used by any packages.
+
+--------------------------------------------------
+- Package: java.beans
+--------------------------------------------------
+No stats available: package referenced, but not analyzed.
+
+
+--------------------------------------------------
+- Package Dependency Cycles:
+--------------------------------------------------
+
+
+--------------------------------------------------
+- Summary:
+--------------------------------------------------
+
+Name, Class Count, Abstract Class Count, Ca, Ce, A, I, D, V:
+
+Default,9,0,0,1,0,1,0,1
+java.beans,0,0,1,0,0,0,1,1

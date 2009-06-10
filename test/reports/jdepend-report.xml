@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="Default">
+            <Stats>
+                <TotalClasses>9</TotalClasses>
+                <ConcreteClasses>9</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>1</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Application.groovy">
+                    Application
+                </Class>
+                <Class sourceFile="Builder.groovy">
+                    Builder
+                </Class>
+                <Class sourceFile="CodenarcGriffonPlugin.groovy">
+                    CodenarcGriffonPlugin
+                </Class>
+                <Class sourceFile="Config.groovy">
+                    Config
+                </Class>
+                <Class sourceFile="Initialize.groovy">
+                    Initialize
+                </Class>
+                <Class sourceFile="JdependGriffonPlugin.groovy">
+                    JdependGriffonPlugin
+                </Class>
+                <Class sourceFile="SimpleController.groovy">
+                    SimpleController
+                </Class>
+                <Class sourceFile="SimpleModel.groovy">
+                    SimpleModel
+                </Class>
+                <Class sourceFile="SimpleView.groovy">
+                    SimpleView
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.beans</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="java.beans">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+    </Packages>
+
+    <Cycles>
+    </Cycles>
+</JDepend>
